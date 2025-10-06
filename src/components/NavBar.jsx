@@ -1,5 +1,5 @@
 import CartWidget from "./CartWidget";
-import Logo from "../assets/logo.webp";
+import Logo from "../assets/logo.png";
 import style from "./NavBar.module.css";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/700.css";
@@ -7,7 +7,7 @@ import "@fontsource/poppins/700.css";
 const NavBar = () => {
   return (
     <nav className={style.navBar}>
-      <img className={style.logo} src={Logo} alt="Logo Crucial Sin" />
+      <img className={style.logo} src={Logo} alt="logo" />
       <ul className={style.navLinks}>
         <li>
           <a className={style.links} href="#">
